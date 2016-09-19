@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/firstProgress"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+
+    <ViewStub
+        android:background="#ff0000"
+        android:id="@+id/firstBlock"
+        android:inflatedId="@+id/firstLy"
+        android:layout="@layout/first_ly"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+    <ProgressBar
+        android:id="@+id/secondProgress"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+
+    <ViewStub
+        android:id="@+id/secondBlock"
+        android:inflatedId="@+id/secondLy"
+        android:layout="@layout/second_ly"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/thirdProgress"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+
+    <ViewStub
+        android:id="@+id/thirdBlock"
+        android:inflatedId="@+id/thirdLy"
+        android:layout="@layout/third_ly"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent" />
+</LinearLayout>
